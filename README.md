@@ -1,14 +1,18 @@
 # Braden's Noted Steps
 *Make alias to: download source code, run npm start*
+*Wally has cli?? flash from cli*
+*npm run get --YegBJ to download source code*
 ## Changes to keymap in ORYX
 1. Download Source Code
 2. move downloaded moonlander_dvorak-coding_source -> /Users/braden/qmk_firmware/keyboards/moonlander/keymaps/moonlander_dvorak-coding_source
 3. Run /Users/braden/qmk_firmware/oryx-macro-hax npm start
 
 ## ADD MACRO
-1. Set macro in ORYX with a unique macro (DBSEL)
-2. add new line in ./macros/1sdc0d3r.ts
-3. run npm start
+1. Set macro on ORYX online with a unique macro (DBSEL)
+2. run command "npm run get --YegBJ"
+3. add macro in ./macros/1sdc0d3r.ts
+4. run command "npm start"
+5. Flash with Wally
 
 
 
