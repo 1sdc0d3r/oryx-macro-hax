@@ -1,3 +1,18 @@
+# Braden's Noted Steps
+*Make alias to: download source code, run npm start*
+## Changes to keymap in ORYX
+1. Download Source Code
+2. move downloaded moonlander_dvorak-coding_source -> /Users/braden/qmk_firmware/keyboards/moonlander/keymaps/moonlander_dvorak-coding_source
+3. Run /Users/braden/qmk_firmware/oryx-macro-hax npm start
+
+## ADD MACRO
+1. Set macro in ORYX with a unique macro (DBSEL)
+2. add new line in ./macros/1sdc0d3r.ts
+3. run npm start
+
+
+
+
 # Oryx Macro Hax
 
 This is a quick and dirty script to nicely get around the annoying (though reasonable) limitation of Ergodox / Moonlander keyboards in the Oryx configurator where macros can only be five key sequences for security reasons.

@@ -3,6 +3,7 @@ import { expandMacros } from "./expandMacros";
 import { newMacro } from "./MacroBuilder";
 
 const MACROS_DIR = "../macros/";
+// const MACROS_DIR = "/macros/";
 const { LAYOUT_FOLDER, LAYOUT_SRC, USER_NAME } = process.env;
 
 export default async function main(
@@ -16,6 +17,7 @@ export default async function main(
         throw new Error("USER_NAME cannot be empty");
     }
     const userConfig = await import(MACROS_DIR + userName.toLowerCase());
+    // const userConfig = MACROS_DIR + "1sdc0d3r";
     const macroMap = userConfig.prepare(newMacro).macroExtensions;
 
     const loaded = readFileSync(keymapSource).toString();
